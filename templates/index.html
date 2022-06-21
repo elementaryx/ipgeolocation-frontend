@@ -1,67 +1,81 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-table, th, td {
-  border: 2px solid black;
-  border-collapse: collapse;
-}
-th, td {
-  padding-top: 10px;
-  padding-bottom: 20px;
-  padding-left: 30px;
-  padding-right: 40px;
-  font-size: 20px;
-}
-div {
-  width: 600px;
-  padding: 10px;
-  border: 3px solid gray;
-  margin: 5;
-  font-size: 30px;
-  text-align: center;
-  border: 2px solid #ccc;
-  background-color: #f3f3f3;
-}
-</style>
-</head>
-<body>
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>IP Geolocation</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<center>
-<div>
- Frontend For Api Service - Version [ 1 ]
-</div>
-<br/>
-<br/>
-</center>
-<table style="width:100%">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
 
-  <tr>
-    <td>Continent Name</td>
-    <td>{{ continent_name }}</td>
-  </tr>
-  
-  <tr>
-    <td>Continent Code</td>
-    <td>{{ continent_code }}</td>
-  </tr>
-  
-  <tr>
-    <td>Country Name</td>
-    <td>{{ country_name }}</td>
-  </tr>
-  
-  <tr>
-    <td>Isp</td>
-    <td>{{ isp }}</td>
-  </tr>
-  
-  <tr>
-    <td>Cached</td>
-    <td>{{ cached }}</td>
-  </tr>
-  
-</table>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="css/style.css">
 
-</body>
+	</head>
+	<body>
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center mb-5">
+					<h2 class="heading-section">IP Geolocation</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="table-wrap">
+						<table class="table table-striped">
+						  <thead>
+						    <tr>
+						      <th>FrontEnd For Api Service - Version [ 1 ]</th>
+						      
+						    </tr>
+						  </thead>
+						  <tbody>
+						    <tr>
+								<td>Continent Name</td>
+								<td>{{ continent_name }}</td>
+							  </tr>
+							  
+							  <tr>
+								<td>Continent Code</td>
+								<td>{{ continent_code }}</td>
+							  </tr>
+							  
+							  <tr>
+								<td>Country Name</td>
+								<td>{{ country_name }}</td>
+							  </tr>
+							  
+							  <tr>
+								<td>Isp</td>
+								<td>{{ isp }}</td>
+							  </tr>
+							  
+							  <tr>
+								<td>Cached</td>
+								<td>{{ cached }}</td>
+							  </tr>
+						    <tr>
+						      <th scope="row">1001</th>
+						      <td>Mark Otto</td>
+						      <td>Japan</td>
+						      <td>$3000</td>
+						      <td>$1200</td>
+						      <td><a href="#" class="btn btn-success">Progress</a></td>
+						    </tr>
+						  </tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="js/jquery.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+
+	</body>
 </html>
+
